@@ -11,8 +11,7 @@
 #import "JDCollectionHeaderView.h"
 #import "UIView+Extension.h"
 #import "JDDateModel.h"
-#define kScreenWidth [UIScreen mainScreen].bounds.size.width
-#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
 static NSString const *reuseID = @"collectionCellID";
 static NSString const *kHeaderID = @"JDCollectionViewHeaderID";
 @interface JDCollectionViewController ()<UICollectionViewDelegate, UICollectionViewDataSource>

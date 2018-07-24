@@ -12,6 +12,7 @@
 #import "JDTableViewController.h"
 #import "JDCollectionViewController.h"
 #import "JDSearchViewController.h"
+#import "JDDIYMainSearchController.h"
 @interface ViewController ()
 @property(nonatomic, strong) UIButton *pushBtn;
 @property(nonatomic, strong) JDMainViewController *mainVC;
@@ -43,7 +44,7 @@
     
 //    [self.navigationController pushViewController:self.mainVC animated:YES];
 //     [self.navigationController pushViewController:[JDTableViewController new] animated:YES];
-    [self.navigationController pushViewController:[JDSearchViewController new] animated:YES];
+    [self.navigationController pushViewController:[JDDIYMainSearchController new] animated:YES];
     
 //    NSRange range= [[NSCalendar currentCalendar] rangeOfUnit:NSCalendarUnitDay inUnit:NSCalendarUnitMonth forDate:[NSDate date]];
 //    NSLog(@"range-%@", NSStringFromRange(range));
@@ -70,7 +71,7 @@
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
-    [self.navigationController setNavigationBarHidden:NO animated:NO];
+//    [self.navigationController setNavigationBarHidden:NO animated:NO];
     
     [super viewDidDisappear:animated];
 }

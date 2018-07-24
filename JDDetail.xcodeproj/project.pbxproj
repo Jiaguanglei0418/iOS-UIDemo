@@ -33,6 +33,11 @@
 		3D0E6FCF2105D6A200686BE5 /* JDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6FCE2105D6A200686BE5 /* JDCollectionViewCell.m */; };
 		3D0E6FD22105DD5500686BE5 /* JDCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6FD12105DD5500686BE5 /* JDCollectionHeaderView.m */; };
 		3D0E6FD52105E21000686BE5 /* JDDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6FD42105E21000686BE5 /* JDDateModel.m */; };
+		3DE3EA4721070E3700E134E9 /* JDDIYSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3EA4621070E3700E134E9 /* JDDIYSearchViewController.m */; };
+		3DE3EA4A2107101100E134E9 /* JDDIYSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3EA492107101100E134E9 /* JDDIYSearchBar.m */; };
+		3DE3EA4E2107215200E134E9 /* JDDIYMainSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3EA4D2107215200E134E9 /* JDDIYMainSearchController.m */; };
+		3DE3EA51210721F500E134E9 /* JDDIYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3EA50210721F500E134E9 /* JDDIYButton.m */; };
+		3DE3EA542107243400E134E9 /* JDSearchTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3EA532107243400E134E9 /* JDSearchTable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +91,17 @@
 		3D0E6FD12105DD5500686BE5 /* JDCollectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDCollectionHeaderView.m; sourceTree = "<group>"; };
 		3D0E6FD32105E21000686BE5 /* JDDateModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDDateModel.h; sourceTree = "<group>"; };
 		3D0E6FD42105E21000686BE5 /* JDDateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDDateModel.m; sourceTree = "<group>"; };
+		3DE3EA4521070E3700E134E9 /* JDDIYSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDDIYSearchViewController.h; sourceTree = "<group>"; };
+		3DE3EA4621070E3700E134E9 /* JDDIYSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDDIYSearchViewController.m; sourceTree = "<group>"; };
+		3DE3EA482107101100E134E9 /* JDDIYSearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDDIYSearchBar.h; sourceTree = "<group>"; };
+		3DE3EA492107101100E134E9 /* JDDIYSearchBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDDIYSearchBar.m; sourceTree = "<group>"; };
+		3DE3EA4B210710DF00E134E9 /* PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
+		3DE3EA4C2107215200E134E9 /* JDDIYMainSearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDDIYMainSearchController.h; sourceTree = "<group>"; };
+		3DE3EA4D2107215200E134E9 /* JDDIYMainSearchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDDIYMainSearchController.m; sourceTree = "<group>"; };
+		3DE3EA4F210721F500E134E9 /* JDDIYButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDDIYButton.h; sourceTree = "<group>"; };
+		3DE3EA50210721F500E134E9 /* JDDIYButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDDIYButton.m; sourceTree = "<group>"; };
+		3DE3EA522107243400E134E9 /* JDSearchTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDSearchTable.h; sourceTree = "<group>"; };
+		3DE3EA532107243400E134E9 /* JDSearchTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDSearchTable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,12 +155,14 @@
 				3D0E6FA5210068C900686BE5 /* JDMainViewController.m */,
 				3D0E6FA72100851D00686BE5 /* JDTitleView.h */,
 				3D0E6FA82100851D00686BE5 /* JDTitleView.m */,
+				3DE3EA4421070E0200E134E9 /* JDSearchVC */,
 				3D092D4C2106CB430031BE62 /* SearchViewController */,
 				3D0E6FC92105C92100686BE5 /* collectionView */,
 				3D0E6FBF2105794900686BE5 /* TableView */,
 				3D0E6FAD21008E4A00686BE5 /* JDProduct */,
 				3D0E6F9F210066A200686BE5 /* Catogory */,
 				3D0E6F8F210065A800686BE5 /* Main.storyboard */,
+				3DE3EA4B210710DF00E134E9 /* PrefixHeader.h */,
 				3D0E6F92210065A800686BE5 /* Assets.xcassets */,
 				3D0E6F94210065A800686BE5 /* LaunchScreen.storyboard */,
 				3D0E6F97210065A800686BE5 /* Info.plist */,
@@ -217,6 +235,23 @@
 				3D0E6FD42105E21000686BE5 /* JDDateModel.m */,
 			);
 			path = collectionView;
+			sourceTree = "<group>";
+		};
+		3DE3EA4421070E0200E134E9 /* JDSearchVC */ = {
+			isa = PBXGroup;
+			children = (
+				3DE3EA4521070E3700E134E9 /* JDDIYSearchViewController.h */,
+				3DE3EA4621070E3700E134E9 /* JDDIYSearchViewController.m */,
+				3DE3EA4C2107215200E134E9 /* JDDIYMainSearchController.h */,
+				3DE3EA4D2107215200E134E9 /* JDDIYMainSearchController.m */,
+				3DE3EA482107101100E134E9 /* JDDIYSearchBar.h */,
+				3DE3EA492107101100E134E9 /* JDDIYSearchBar.m */,
+				3DE3EA4F210721F500E134E9 /* JDDIYButton.h */,
+				3DE3EA50210721F500E134E9 /* JDDIYButton.m */,
+				3DE3EA522107243400E134E9 /* JDSearchTable.h */,
+				3DE3EA532107243400E134E9 /* JDSearchTable.m */,
+			);
+			path = JDSearchVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +328,7 @@
 			files = (
 				3D0E6FCC2105C96E00686BE5 /* JDCollectionViewController.m in Sources */,
 				3D0E6F8E210065A800686BE5 /* ViewController.m in Sources */,
+				3DE3EA542107243400E134E9 /* JDSearchTable.m in Sources */,
 				3D0E6FD52105E21000686BE5 /* JDDateModel.m in Sources */,
 				3D0E6FC22105797100686BE5 /* JDTableView.m in Sources */,
 				3D0E6FB021009AE400686BE5 /* JDProductScrollView.m in Sources */,
@@ -306,12 +342,16 @@
 				3D0E6FC82105866C00686BE5 /* JDTableViewCell.m in Sources */,
 				3D0E6FC521057E6400686BE5 /* JDCellModel.m in Sources */,
 				3D0E6FB321009BE200686BE5 /* JDHorizonalScrollView.m in Sources */,
+				3DE3EA4E2107215200E134E9 /* JDDIYMainSearchController.m in Sources */,
 				3D0E6FA92100851D00686BE5 /* JDTitleView.m in Sources */,
 				3D0E6FB62100BCDF00686BE5 /* JDProductViewController.m in Sources */,
+				3DE3EA51210721F500E134E9 /* JDDIYButton.m in Sources */,
 				3D0E6FD22105DD5500686BE5 /* JDCollectionHeaderView.m in Sources */,
+				3DE3EA4A2107101100E134E9 /* JDDIYSearchBar.m in Sources */,
 				3D0E6FBB2101871B00686BE5 /* UIView+Size.m in Sources */,
 				3D0E6FCF2105D6A200686BE5 /* JDCollectionViewCell.m in Sources */,
 				3D0E6FAC2100872600686BE5 /* NSObject+EOCNewKVO.m in Sources */,
+				3DE3EA4721070E3700E134E9 /* JDDIYSearchViewController.m in Sources */,
 				3D0E6FBE210577EE00686BE5 /* JDTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +488,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD8JGW3VRL;
+				GCC_PREFIX_HEADER = ./JDDetail/PrefixHeader.h;
 				INFOPLIST_FILE = JDDetail/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -463,6 +504,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD8JGW3VRL;
+				GCC_PREFIX_HEADER = ./JDDetail/PrefixHeader.h;
 				INFOPLIST_FILE = JDDetail/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
