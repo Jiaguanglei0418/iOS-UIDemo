@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D092D4B2106CA9A0031BE62 /* JDSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D092D4A2106CA9A0031BE62 /* JDSearchViewController.m */; };
+		3D092D4F2106CB6B0031BE62 /* JDDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D092D4E2106CB6B0031BE62 /* JDDataModel.m */; };
+		3D092D512106CCC00031BE62 /* country.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D092D502106CCC00031BE62 /* country.txt */; };
+		3D092D542106CEA80031BE62 /* JDSearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D092D532106CEA80031BE62 /* JDSearchResultViewController.m */; };
+		3D0E6F8B210065A800686BE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6F8A210065A800686BE5 /* AppDelegate.m */; };
+		3D0E6F8E210065A800686BE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6F8D210065A800686BE5 /* ViewController.m */; };
+		3D0E6F91210065A800686BE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E6F8F210065A800686BE5 /* Main.storyboard */; };
+		3D0E6F93210065A800686BE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E6F92210065A800686BE5 /* Assets.xcassets */; };
+		3D0E6F96210065A800686BE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E6F94210065A800686BE5 /* LaunchScreen.storyboard */; };
+		3D0E6F99210065A800686BE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6F98210065A800686BE5 /* main.m */; };
+		3D0E6FA3210066B100686BE5 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6FA2210066B100686BE5 /* UIView+Extension.m */; };
+		3D0E6FA6210068C900686BE5 /* JDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6FA5210068C900686BE5 /* JDMainViewController.m */; };
+		3D0E6FA92100851D00686BE5 /* JDTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6FA82100851D00686BE5 /* JDTitleView.m */; };
+		3D0E6FAC2100872600686BE5 /* NSObject+EOCNewKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6FAB2100872600686BE5 /* NSObject+EOCNewKVO.m */; };
+		3D0E6FB021009AE400686BE5 /* JDProductScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6FAF21009AE400686BE5 /* JDProductScrollView.m */; };
+		3D0E6FB321009BE200686BE5 /* JDHorizonalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6FB221009BE200686BE5 /* JDHorizonalScrollView.m */; };
+		3D0E6FB62100BCDF00686BE5 /* JDProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6FB52100BCDF00686BE5 /* JDProductViewController.m */; };
+		3D0E6FBB2101871B00686BE5 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6FBA2101871B00686BE5 /* UIView+Size.m */; };
+		3D0E6FBE210577EE00686BE5 /* JDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6FBD210577EE00686BE5 /* JDTableViewController.m */; };
+		3D0E6FC22105797100686BE5 /* JDTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6FC12105797100686BE5 /* JDTableView.m */; };
+		3D0E6FC521057E6400686BE5 /* JDCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6FC421057E6400686BE5 /* JDCellModel.m */; };
+		3D0E6FC82105866C00686BE5 /* JDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6FC72105866C00686BE5 /* JDTableViewCell.m */; };
+		3D0E6FCC2105C96E00686BE5 /* JDCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6FCB2105C96E00686BE5 /* JDCollectionViewController.m */; };
+		3D0E6FCF2105D6A200686BE5 /* JDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6FCE2105D6A200686BE5 /* JDCollectionViewCell.m */; };
+		3D0E6FD22105DD5500686BE5 /* JDCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6FD12105DD5500686BE5 /* JDCollectionHeaderView.m */; };
+		3D0E6FD52105E21000686BE5 /* JDDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E6FD42105E21000686BE5 /* JDDateModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D092D492106CA9A0031BE62 /* JDSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDSearchViewController.h; sourceTree = "<group>"; };
+		3D092D4A2106CA9A0031BE62 /* JDSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDSearchViewController.m; sourceTree = "<group>"; };
+		3D092D4D2106CB6B0031BE62 /* JDDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDDataModel.h; sourceTree = "<group>"; };
+		3D092D4E2106CB6B0031BE62 /* JDDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDDataModel.m; sourceTree = "<group>"; };
+		3D092D502106CCC00031BE62 /* country.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = country.txt; sourceTree = "<group>"; };
+		3D092D522106CEA80031BE62 /* JDSearchResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDSearchResultViewController.h; sourceTree = "<group>"; };
+		3D092D532106CEA80031BE62 /* JDSearchResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDSearchResultViewController.m; sourceTree = "<group>"; };
+		3D0E6F86210065A800686BE5 /* JDDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0E6F89210065A800686BE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D0E6F8A210065A800686BE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D0E6F8C210065A800686BE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D0E6F8D210065A800686BE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D0E6F90210065A800686BE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D0E6F92210065A800686BE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D0E6F95210065A800686BE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D0E6F97210065A800686BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D0E6F98210065A800686BE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D0E6FA1210066B100686BE5 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		3D0E6FA2210066B100686BE5 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		3D0E6FA4210068C900686BE5 /* JDMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDMainViewController.h; sourceTree = "<group>"; };
+		3D0E6FA5210068C900686BE5 /* JDMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDMainViewController.m; sourceTree = "<group>"; };
+		3D0E6FA72100851D00686BE5 /* JDTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDTitleView.h; sourceTree = "<group>"; };
+		3D0E6FA82100851D00686BE5 /* JDTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDTitleView.m; sourceTree = "<group>"; };
+		3D0E6FAA2100872600686BE5 /* NSObject+EOCNewKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EOCNewKVO.h"; sourceTree = "<group>"; };
+		3D0E6FAB2100872600686BE5 /* NSObject+EOCNewKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EOCNewKVO.m"; sourceTree = "<group>"; };
+		3D0E6FAE21009AE400686BE5 /* JDProductScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDProductScrollView.h; sourceTree = "<group>"; };
+		3D0E6FAF21009AE400686BE5 /* JDProductScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDProductScrollView.m; sourceTree = "<group>"; };
+		3D0E6FB121009BE200686BE5 /* JDHorizonalScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDHorizonalScrollView.h; sourceTree = "<group>"; };
+		3D0E6FB221009BE200686BE5 /* JDHorizonalScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDHorizonalScrollView.m; sourceTree = "<group>"; };
+		3D0E6FB42100BCDF00686BE5 /* JDProductViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDProductViewController.h; sourceTree = "<group>"; };
+		3D0E6FB52100BCDF00686BE5 /* JDProductViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDProductViewController.m; sourceTree = "<group>"; };
+		3D0E6FB72100CB8600686BE5 /* main-arm64.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "main-arm64.cpp"; sourceTree = "<group>"; };
+		3D0E6FB92101871B00686BE5 /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		3D0E6FBA2101871B00686BE5 /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+		3D0E6FBC210577EE00686BE5 /* JDTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDTableViewController.h; sourceTree = "<group>"; };
+		3D0E6FBD210577EE00686BE5 /* JDTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDTableViewController.m; sourceTree = "<group>"; };
+		3D0E6FC02105797100686BE5 /* JDTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDTableView.h; sourceTree = "<group>"; };
+		3D0E6FC12105797100686BE5 /* JDTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDTableView.m; sourceTree = "<group>"; };
+		3D0E6FC321057E6400686BE5 /* JDCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDCellModel.h; sourceTree = "<group>"; };
+		3D0E6FC421057E6400686BE5 /* JDCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDCellModel.m; sourceTree = "<group>"; };
+		3D0E6FC62105866C00686BE5 /* JDTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDTableViewCell.h; sourceTree = "<group>"; };
+		3D0E6FC72105866C00686BE5 /* JDTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDTableViewCell.m; sourceTree = "<group>"; };
+		3D0E6FCA2105C96E00686BE5 /* JDCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDCollectionViewController.h; sourceTree = "<group>"; };
+		3D0E6FCB2105C96E00686BE5 /* JDCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDCollectionViewController.m; sourceTree = "<group>"; };
+		3D0E6FCD2105D6A200686BE5 /* JDCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDCollectionViewCell.h; sourceTree = "<group>"; };
+		3D0E6FCE2105D6A200686BE5 /* JDCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDCollectionViewCell.m; sourceTree = "<group>"; };
+		3D0E6FD02105DD5500686BE5 /* JDCollectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDCollectionHeaderView.h; sourceTree = "<group>"; };
+		3D0E6FD12105DD5500686BE5 /* JDCollectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDCollectionHeaderView.m; sourceTree = "<group>"; };
+		3D0E6FD32105E21000686BE5 /* JDDateModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDDateModel.h; sourceTree = "<group>"; };
+		3D0E6FD42105E21000686BE5 /* JDDateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDDateModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D0E6F83210065A800686BE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D092D4C2106CB430031BE62 /* SearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3D092D492106CA9A0031BE62 /* JDSearchViewController.h */,
+				3D092D4A2106CA9A0031BE62 /* JDSearchViewController.m */,
+				3D092D522106CEA80031BE62 /* JDSearchResultViewController.h */,
+				3D092D532106CEA80031BE62 /* JDSearchResultViewController.m */,
+				3D092D4D2106CB6B0031BE62 /* JDDataModel.h */,
+				3D092D4E2106CB6B0031BE62 /* JDDataModel.m */,
+			);
+			path = SearchViewController;
+			sourceTree = "<group>";
+		};
+		3D0E6F7D210065A800686BE5 = {
+			isa = PBXGroup;
+			children = (
+				3D0E6F88210065A800686BE5 /* JDDetail */,
+				3D0E6F87210065A800686BE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D0E6F87210065A800686BE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D0E6F86210065A800686BE5 /* JDDetail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D0E6F88210065A800686BE5 /* JDDetail */ = {
+			isa = PBXGroup;
+			children = (
+				3D0E6F89210065A800686BE5 /* AppDelegate.h */,
+				3D0E6F8A210065A800686BE5 /* AppDelegate.m */,
+				3D0E6F8C210065A800686BE5 /* ViewController.h */,
+				3D0E6F8D210065A800686BE5 /* ViewController.m */,
+				3D0E6FA4210068C900686BE5 /* JDMainViewController.h */,
+				3D0E6FA5210068C900686BE5 /* JDMainViewController.m */,
+				3D0E6FA72100851D00686BE5 /* JDTitleView.h */,
+				3D0E6FA82100851D00686BE5 /* JDTitleView.m */,
+				3D092D4C2106CB430031BE62 /* SearchViewController */,
+				3D0E6FC92105C92100686BE5 /* collectionView */,
+				3D0E6FBF2105794900686BE5 /* TableView */,
+				3D0E6FAD21008E4A00686BE5 /* JDProduct */,
+				3D0E6F9F210066A200686BE5 /* Catogory */,
+				3D0E6F8F210065A800686BE5 /* Main.storyboard */,
+				3D0E6F92210065A800686BE5 /* Assets.xcassets */,
+				3D0E6F94210065A800686BE5 /* LaunchScreen.storyboard */,
+				3D0E6F97210065A800686BE5 /* Info.plist */,
+				3D092D502106CCC00031BE62 /* country.txt */,
+				3D0E6F98210065A800686BE5 /* main.m */,
+				3D0E6FB72100CB8600686BE5 /* main-arm64.cpp */,
+			);
+			path = JDDetail;
+			sourceTree = "<group>";
+		};
+		3D0E6F9F210066A200686BE5 /* Catogory */ = {
+			isa = PBXGroup;
+			children = (
+				3D0E6FB92101871B00686BE5 /* UIView+Size.h */,
+				3D0E6FBA2101871B00686BE5 /* UIView+Size.m */,
+				3D0E6FAA2100872600686BE5 /* NSObject+EOCNewKVO.h */,
+				3D0E6FAB2100872600686BE5 /* NSObject+EOCNewKVO.m */,
+				3D0E6FA0210066B100686BE5 /* UIView+Extention */,
+			);
+			path = Catogory;
+			sourceTree = "<group>";
+		};
+		3D0E6FA0210066B100686BE5 /* UIView+Extention */ = {
+			isa = PBXGroup;
+			children = (
+				3D0E6FA1210066B100686BE5 /* UIView+Extension.h */,
+				3D0E6FA2210066B100686BE5 /* UIView+Extension.m */,
+			);
+			path = "UIView+Extention";
+			sourceTree = "<group>";
+		};
+		3D0E6FAD21008E4A00686BE5 /* JDProduct */ = {
+			isa = PBXGroup;
+			children = (
+				3D0E6FB42100BCDF00686BE5 /* JDProductViewController.h */,
+				3D0E6FB52100BCDF00686BE5 /* JDProductViewController.m */,
+				3D0E6FAE21009AE400686BE5 /* JDProductScrollView.h */,
+				3D0E6FAF21009AE400686BE5 /* JDProductScrollView.m */,
+				3D0E6FB121009BE200686BE5 /* JDHorizonalScrollView.h */,
+				3D0E6FB221009BE200686BE5 /* JDHorizonalScrollView.m */,
+			);
+			path = JDProduct;
+			sourceTree = "<group>";
+		};
+		3D0E6FBF2105794900686BE5 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				3D0E6FBC210577EE00686BE5 /* JDTableViewController.h */,
+				3D0E6FBD210577EE00686BE5 /* JDTableViewController.m */,
+				3D0E6FC02105797100686BE5 /* JDTableView.h */,
+				3D0E6FC12105797100686BE5 /* JDTableView.m */,
+				3D0E6FC321057E6400686BE5 /* JDCellModel.h */,
+				3D0E6FC421057E6400686BE5 /* JDCellModel.m */,
+				3D0E6FC62105866C00686BE5 /* JDTableViewCell.h */,
+				3D0E6FC72105866C00686BE5 /* JDTableViewCell.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		3D0E6FC92105C92100686BE5 /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				3D0E6FCA2105C96E00686BE5 /* JDCollectionViewController.h */,
+				3D0E6FCB2105C96E00686BE5 /* JDCollectionViewController.m */,
+				3D0E6FCD2105D6A200686BE5 /* JDCollectionViewCell.h */,
+				3D0E6FCE2105D6A200686BE5 /* JDCollectionViewCell.m */,
+				3D0E6FD02105DD5500686BE5 /* JDCollectionHeaderView.h */,
+				3D0E6FD12105DD5500686BE5 /* JDCollectionHeaderView.m */,
+				3D0E6FD32105E21000686BE5 /* JDDateModel.h */,
+				3D0E6FD42105E21000686BE5 /* JDDateModel.m */,
+			);
+			path = collectionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D0E6F85210065A800686BE5 /* JDDetail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0E6F9C210065A800686BE5 /* Build configuration list for PBXNativeTarget "JDDetail" */;
+			buildPhases = (
+				3D0E6F82210065A800686BE5 /* Sources */,
+				3D0E6F83210065A800686BE5 /* Frameworks */,
+				3D0E6F84210065A800686BE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDDetail;
+			productName = JDDetail;
+			productReference = 3D0E6F86210065A800686BE5 /* JDDetail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D0E6F7E210065A800686BE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Reboot;
+				TargetAttributes = {
+					3D0E6F85210065A800686BE5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3D0E6F81210065A800686BE5 /* Build configuration list for PBXProject "JDDetail" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D0E6F7D210065A800686BE5;
+			productRefGroup = 3D0E6F87210065A800686BE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D0E6F85210065A800686BE5 /* JDDetail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D0E6F84210065A800686BE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0E6F96210065A800686BE5 /* LaunchScreen.storyboard in Resources */,
+				3D092D512106CCC00031BE62 /* country.txt in Resources */,
+				3D0E6F93210065A800686BE5 /* Assets.xcassets in Resources */,
+				3D0E6F91210065A800686BE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D0E6F82210065A800686BE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0E6FCC2105C96E00686BE5 /* JDCollectionViewController.m in Sources */,
+				3D0E6F8E210065A800686BE5 /* ViewController.m in Sources */,
+				3D0E6FD52105E21000686BE5 /* JDDateModel.m in Sources */,
+				3D0E6FC22105797100686BE5 /* JDTableView.m in Sources */,
+				3D0E6FB021009AE400686BE5 /* JDProductScrollView.m in Sources */,
+				3D0E6F99210065A800686BE5 /* main.m in Sources */,
+				3D092D4F2106CB6B0031BE62 /* JDDataModel.m in Sources */,
+				3D092D4B2106CA9A0031BE62 /* JDSearchViewController.m in Sources */,
+				3D0E6FA3210066B100686BE5 /* UIView+Extension.m in Sources */,
+				3D092D542106CEA80031BE62 /* JDSearchResultViewController.m in Sources */,
+				3D0E6FA6210068C900686BE5 /* JDMainViewController.m in Sources */,
+				3D0E6F8B210065A800686BE5 /* AppDelegate.m in Sources */,
+				3D0E6FC82105866C00686BE5 /* JDTableViewCell.m in Sources */,
+				3D0E6FC521057E6400686BE5 /* JDCellModel.m in Sources */,
+				3D0E6FB321009BE200686BE5 /* JDHorizonalScrollView.m in Sources */,
+				3D0E6FA92100851D00686BE5 /* JDTitleView.m in Sources */,
+				3D0E6FB62100BCDF00686BE5 /* JDProductViewController.m in Sources */,
+				3D0E6FD22105DD5500686BE5 /* JDCollectionHeaderView.m in Sources */,
+				3D0E6FBB2101871B00686BE5 /* UIView+Size.m in Sources */,
+				3D0E6FCF2105D6A200686BE5 /* JDCollectionViewCell.m in Sources */,
+				3D0E6FAC2100872600686BE5 /* NSObject+EOCNewKVO.m in Sources */,
+				3D0E6FBE210577EE00686BE5 /* JDTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D0E6F8F210065A800686BE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D0E6F90210065A800686BE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D0E6F94210065A800686BE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D0E6F95210065A800686BE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D0E6F9A210065A800686BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D0E6F9B210065A800686BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D0E6F9D210065A800686BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HD8JGW3VRL;
+				INFOPLIST_FILE = JDDetail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reboot.JDDetail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D0E6F9E210065A800686BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HD8JGW3VRL;
+				INFOPLIST_FILE = JDDetail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reboot.JDDetail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D0E6F81210065A800686BE5 /* Build configuration list for PBXProject "JDDetail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0E6F9A210065A800686BE5 /* Debug */,
+				3D0E6F9B210065A800686BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D0E6F9C210065A800686BE5 /* Build configuration list for PBXNativeTarget "JDDetail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0E6F9D210065A800686BE5 /* Debug */,
+				3D0E6F9E210065A800686BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D0E6F7E210065A800686BE5 /* Project object */;
+}
