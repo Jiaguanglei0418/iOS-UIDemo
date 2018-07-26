@@ -13,6 +13,7 @@
 #import "JDCollectionViewController.h"
 #import "JDSearchViewController.h"
 #import "JDDIYMainSearchController.h"
+#import "JDNavMainViewController.h"
 @interface ViewController ()
 @property(nonatomic, strong) UIButton *pushBtn;
 @property(nonatomic, strong) JDMainViewController *mainVC;
@@ -44,7 +45,7 @@
     
 //    [self.navigationController pushViewController:self.mainVC animated:YES];
 //     [self.navigationController pushViewController:[JDTableViewController new] animated:YES];
-    [self.navigationController pushViewController:[JDDIYMainSearchController new] animated:YES];
+    [self.navigationController pushViewController:[JDNavMainViewController new] animated:YES];
     
 //    NSRange range= [[NSCalendar currentCalendar] rangeOfUnit:NSCalendarUnitDay inUnit:NSCalendarUnitMonth forDate:[NSDate date]];
 //    NSLog(@"range-%@", NSStringFromRange(range));
@@ -66,19 +67,27 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [self.navigationController setNavigationBarHidden:YES animated:NO];
-    
+    NSLog(@"%s", __FUNCTION__);
     [super viewWillAppear:animated];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
-//    [self.navigationController setNavigationBarHidden:NO animated:NO];
-    
+    [self.navigationController setNavigationBarHidden:NO animated:NO];
+    NSLog(@"%s", __FUNCTION__);
     [super viewDidDisappear:animated];
 }
 
-- (void)viewDidLoad {
-    self.view.backgroundColor = [UIColor whiteColor];
+- (void)viewDidDisappear:(BOOL)animated {
+    NSLog(@"before - %s", __FUNCTION__);
+    [super viewDidDisappear:animated];
     
+    NSLog(@"after - %s", __FUNCTION__);
+}
+
+- (void)viewDidLoad {
+    NSLog(@"%s", __FUNCTION__);
+    self.view.backgroundColor = [UIColor whiteColor];
+
     
     UINavigationBar *bar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0, 0, self.view.width, 200.f)];
     bar.barTintColor = [UIColor redColor];

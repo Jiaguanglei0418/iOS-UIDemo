@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "JDDIYNavigationViewController.h"
+#import "EOCNavViewCtr.h"
 @interface AppDelegate ()
 
 @end
@@ -18,15 +20,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     // Override point for customization after application launch.
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
+    UINavigationController *nav = [[JDDIYNavigationViewController alloc] initWithRootViewController:[ViewController new]];
 
-    [[UINavigationBar appearance] setBackIndicatorImage:[UIImage imageNamed:@"back"]];
-    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"back"]];
+    [[UINavigationBar appearance] setBackIndicatorImage:[[UIImage imageNamed:@"back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:[[UIImage imageNamed:@"back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
     [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(-100, 0) forBarMetrics:UIBarMetricsDefault];
 
 
 //    [[UINavigationBar appearance] setBarTintColor:[UIColor lightGrayColor]];
-    [[UINavigationBar appearance] setTintColor:[UIColor lightGrayColor]];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
 
 
     self.window.rootViewController = nav;
